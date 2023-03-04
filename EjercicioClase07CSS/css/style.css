@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap");
+
+* {
+  font-family: "Roboto";
+}
+
+/* header */
+
+.titulo-principal,
+.titulo-principal-sobre-mi {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  color: #005677;
+  background-color: #c4c4c4;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 29, 64px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  letter-spacing: 7px;
+}
+.headerinfo,
+.header-sobre-mi {
+  text-align: center;
+  margin-bottom: 100px;
+  background-image: url(../imagenes/fondoBatman.jpg);
+  background-size: cover;
+}
+
+.headerinfo .navegador,
+.navegador-sobre-mi {
+  padding-top: 10px;
+  background-color: white;
+}
+
+.enlace-sobre-mi,
+.enlace-index {
+  background-color: #c4c4c4;
+  font-size: large;
+  color: #005677;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+/* main */
+
+.titulos-de-seccion {
+  color: #005677;
+  background-color: #c4c4c4;
+  text-transform: uppercase;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  letter-spacing: 7px;
+}
+.datos-personales {
+  font-style: italic;
+  font-weight: bold;
+}
+.años {
+  font-weight: bold;
+}
+.experiencia-laboral1 {
+  display: inline;
+}
+
+/* footer */
+
+.footer {
+  background-color: #005677;
+  margin-top: 100px;
+}
+.footer-info {
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  color: #ffff;
+  padding-left: 10px;
+}
+
+.footer-info,
+.iconos-footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
